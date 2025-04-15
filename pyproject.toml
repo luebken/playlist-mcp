@@ -1,0 +1,11 @@
+[project]
+name = "playlist-mcp"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=1.0.4",
+    "mcp[cli]>=1.6.0",
+    "pytube>=15.0.0",
+    "youtube-transcript-api>=1.0.3",
+]
