@@ -1,5 +1,7 @@
 # Playlist-MCP
 
+[![smithery badge](https://smithery.ai/badge/@luebken/playlist-mcp)](https://smithery.ai/server/@luebken/playlist-mcp)
+
 This is an experimental MCP server, which makes the transcripts of a Youtube Playlist available.
 
 It currently is preloaded with the KubeCon London 2025 transcripts. But you can change this by changing the URL.
@@ -8,6 +10,15 @@ It currently is preloaded with the KubeCon London 2025 transcripts. But you can 
 
 ## Install
 
+### Installing via Smithery
+
+To install Playlist Transcript Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@luebken/playlist-mcp):
+
+```bash
+npx -y @smithery/cli install @luebken/playlist-mcp --client claude
+```
+
+### Manual Installation
 ```sh
 # Clone this repo
 git clone git@github.com:luebken/playlist-mcp.git; cd playlist-mcp
